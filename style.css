@@ -333,3 +333,219 @@ body::-webkit-scrollbar {
         color: #fff;
         text-shadow: 0 0 20px rgb(255, 255, 255);
     }
+
+    /* Media Queries for Responsive Design */
+
+/* For tablets and smaller devices */
+@media (max-width: 1024px) {
+    #logo {
+        font-size: 100px; /* Reduce logo size */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .navbar ul {
+        gap: 40px; /* Reduce gap between navbar items */
+    }
+
+    .navbar a {
+        font-size: 20px; /* Reduce font size for navbar links */
+    }
+
+    .carousel-inner {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+        height: 500px; /* Adjust carousel height */
+    }
+
+    .carousel-item img {
+        width: 70%; /* Adjust image width */
+    }
+
+    .text {
+        font-size: 40px; /* Reduce font size for text */
+    }
+
+    .projects {
+        padding-left: 100px;
+        padding-right: 100px; /* Adjust padding for projects section */
+    }
+
+    .cards {
+        gap: 20px; /* Reduce gap between cards */
+    }
+
+    .info h3 {
+        font-size: 28px; /* Reduce font size for card titles */
+    }
+
+    .info p {
+        font-size: 18px; /* Reduce font size for card descriptions */
+    }
+
+    .btn-go a {
+        font-size: 20px; /* Reduce font size for button text */
+    }
+
+    footer .content {
+        grid-template-columns: 1fr; /* Stack footer content vertically */
+        grid-gap: 2rem;
+        padding: 1rem;
+    }
+
+    #icons {
+        font-size: 20px; /* Reduce icon size */
+    }
+
+    #follow {
+        font-size: 24px; /* Reduce font size for follow text */
+    }
+
+    #copy p {
+        font-size: 16px; /* Reduce font size for copyright text */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    #logo {
+        font-size: 60px; /* Further reduce logo size */
+        padding: 10px; /* Further adjust padding */
+    }
+
+    .navbar ul {
+        gap: 20px; /* Further reduce gap between navbar items */
+    }
+
+    .navbar a {
+        font-size: 16px; /* Further reduce font size for navbar links */
+    }
+
+    .carousel-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        height: 300px; /* Further adjust carousel height */
+    }
+
+    .carousel-item img {
+        width: 90%; /* Further adjust image width */
+    }
+
+    .text {
+        font-size: 30px; /* Further reduce font size for text */
+    }
+
+    .projects {
+        padding-left: 20px;
+        padding-right: 20px; /* Further adjust padding for projects section */
+    }
+
+    .cards {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 15px; /* Further reduce gap between cards */
+    }
+
+    .info h3 {
+        font-size: 24px; /* Further reduce font size for card titles */
+    }
+
+    .info p {
+        font-size: 16px; /* Further reduce font size for card descriptions */
+    }
+
+    .btn-go a {
+        font-size: 18px; /* Further reduce font size for button text */
+    }
+
+    footer .content {
+        grid-template-columns: 1fr; /* Stack footer content vertically */
+        grid-gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    #icons {
+        font-size: 18px; /* Further reduce icon size */
+    }
+
+    #follow {
+        font-size: 20px; /* Further reduce font size for follow text */
+    }
+
+    #copy p {
+        font-size: 14px; /* Further reduce font size for copyright text */
+    }
+}
+
+/* For very small mobile devices */
+@media (max-width: 480px) {
+    #logo {
+        font-size: 40px; /* Further reduce logo size */
+        padding: 5px; /* Further adjust padding */
+    }
+
+    .navbar ul {
+        gap: 10px; /* Further reduce gap between navbar items */
+    }
+
+    .navbar a {
+        font-size: 14px; /* Further reduce font size for navbar links */
+    }
+
+    .carousel-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        height: 200px; /* Further adjust carousel height */
+    }
+
+    .carousel-item img {
+        width: 100%; /* Full width for images */
+    }
+
+    .text {
+        font-size: 24px; /* Further reduce font size for text */
+    }
+
+    .projects {
+        padding-left: 10px;
+        padding-right: 10px; /* Further adjust padding for projects section */
+    }
+
+    .cards {
+        gap: 10px; /* Further reduce gap between cards */
+    }
+
+    .info h3 {
+        font-size: 20px; /* Further reduce font size for card titles */
+    }
+
+    .info p {
+        font-size: 14px; /* Further reduce font size for card descriptions */
+    }
+
+    .btn-go a {
+        font-size: 16px; /* Further reduce font size for button text */
+    }
+
+    footer .content {
+        grid-template-columns: 1fr; /* Stack footer content vertically */
+        grid-gap: 0.5rem;
+        padding: 0.25rem;
+    }
+
+    #icons {
+        font-size: 16px; /* Further reduce icon size */
+    }
+
+    #follow {
+        font-size: 18px; /* Further reduce font size for follow text */
+    }
+
+    #copy p {
+        font-size: 12px; /* Further reduce font size for copyright text */
+    }
+}
